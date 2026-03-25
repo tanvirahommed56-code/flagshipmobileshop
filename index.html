@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flagship Mobile Shop</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background: #f9f9f9; color: #111; }
+    header { background: #0a3d62; color: #fff; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2rem; }
+    nav { background: #1e3799; display: flex; justify-content: center; gap: 20px; padding: 10px 0; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: #4a69bd; color: #fff; padding: 50px 20px; text-align: center; }
+    .hero h2 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.1rem; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 20px; padding: 20px; }
+    .product { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); text-align: center; }
+    .product img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; }
+    .product h3 { margin: 10px 0 5px; font-size: 1.1rem; }
+    .product p { margin: 5px 0; font-size: 0.95rem; color: #333; }
+    .contact, .about { padding: 20px; background: #fff; margin: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    footer { background: #1e3799; color: #fff; text-align: center; padding: 15px 0; margin-top: 20px; }
+    footer a { color: #fff; text-decoration: none; margin: 0 5px; }
+    footer a:hover { text-decoration: underline; }
+    .btn { display:inline-block; margin-top: 10px; padding:8px 12px; background:#0a3d62; color:#fff; border-radius:4px; text-decoration:none; }
+    .btn:hover { background:#081f3a; }
+    form input, form textarea { width: 100%; padding:8px; margin:5px 0; border-radius:4px; border:1px solid #ccc; }
+    form button { padding:10px 15px; background:#0a3d62; color:#fff; border:none; border-radius:4px; cursor:pointer; }
+    form button:hover { background:#081f3a; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Flagship Mobile Shop</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h2>Affordable Pre-Owned Mobiles</h2>
+  <p>Get the best deals on used smartphones – Quality checked & budget-friendly!</p>
+</section>
+
+<section class="products" id="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/200x200?text=iPhone+12" alt="iPhone 12">
+    <h3>iPhone 12</h3>
+    <p>Condition: Like New</p>
+    <p>Price: ৳25,000</p>
+    <a href="https://wa.me/880123456789" class="btn">Inquire on WhatsApp</a>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/200x200?text=Samsung+S21" alt="Samsung S21">
+    <h3>Samsung S21</h3>
+    <p>Condition: Good</p>
+    <p>Price: ৳18,000</p>
+    <a href="https://wa.me/880123456789" class="btn">Inquire on WhatsApp</a>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/200x200?text=Xiaomi+Note+11" alt="Xiaomi Note 11">
+    <h3>Xiaomi Note 11</h3>
+    <p>Condition: Like New</p>
+    <p>Price: ৳12,500</p>
+    <a href="https://wa.me/880123456789" class="btn">Inquire on WhatsApp</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Us</h2>
+  <p>Flagship Mobile Shop has been providing affordable, quality-checked pre-owned smartphones for years.  
+  Our mission is to make technology accessible to everyone while ensuring trust and transparency.</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Address: Kaliganj, Bangladesh</p>
+  <p>Phone: +880123456789</p>
+  <p>Email: info@flagshipmobileshop.com</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>Follow us on: 
+    <a href="#">Facebook</a> | 
+    <a href="#">Instagram</a> | 
+    <a href="#">WhatsApp</a>
+  </p>
+  <p>&copy; 2026 Flagship Mobile Shop</p>
+</footer>
+
+</body>
+</html>
